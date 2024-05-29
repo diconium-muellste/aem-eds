@@ -31,3 +31,7 @@
     order: unset;
   }
 }
+
+.columns video {
+  max-width: 100%;
+}

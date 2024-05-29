@@ -162,7 +162,7 @@ header nav .nav-sections {
 }
 
 header nav[aria-expanded='true'] .nav-sections {
-  display: block;
+  display: contents;
   visibility: visible;
   align-self: start;
 }
@@ -272,4 +272,14 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+
+/* ADJUSTMENTS */
+.nav-sections {
+  display: contents;
+
+  .default-content-wrapper {
+    width: fit-content;
+    margin: 0;
+  }
 }
